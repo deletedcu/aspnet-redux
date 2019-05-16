@@ -4,7 +4,7 @@ Compile simple TypeScript classes into both Redux or React Context API state mac
 
 Too good to be true?
 
-Yes, it is true, but the compiler is still quite young and Please Do check the [Limitations](https://github.com/terotests/ts2redux#limitations) before you test the library.
+Yes, it is true, but the compiler is still quite young and Please Do check the [Limitations](https://github.com/curest0x1021/aspnet-redux#limitations) before you test the library.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Yes, it is true, but the compiler is still quite young and Please Do check the [
 npm i -g ts2redux
 ```
 
-Run test app by cloning [Repository](https://github.com/terotests/ts2redux) and then
+Run test app by cloning [Repository](https://github.com/curest0x1021/aspnet-redux) and then
 
 ```
 npm install
@@ -97,8 +97,8 @@ Then we can compile the model
   ts2redux <path>
 ```
 
-And the directory will have `reducers/` directory where `IncModel` and `SimpleModel` are defined [IncModel.tsx](https://github.com/terotests/ts2redux/blob/master/src/frontend/models/reducers/IncModel.tsx) and  
-[SimpleModel.tsx](https://github.com/terotests/ts2redux/blob/master/src/frontend/models/reducers/IncModel.tsx) together with all Redux ceremony and more.
+And the directory will have `reducers/` directory where `IncModel` and `SimpleModel` are defined [IncModel.tsx](https://github.com/curest0x1021/aspnet-redux/blob/master/src/frontend/models/reducers/IncModel.tsx) and  
+[SimpleModel.tsx](https://github.com/curest0x1021/aspnet-redux/blob/master/src/frontend/models/reducers/IncModel.tsx) together with all Redux ceremony and more.
 
 ## Custom combineReducers
 
@@ -254,7 +254,7 @@ Selectors are great, if you want to avoid expensive recalculations and optimize 
 
 To create a selector, define function with `get` -modifier like `get someProperty() : someReturnValueType`. This will create a new property `someProperty` which can be used as a cached result of some computation based on the model.
 
-For example see code from [TodoList.ts](https://github.com/terotests/ts2redux/blob/master/src/frontend/models/TodoList.ts#L33-L38)
+For example see code from [TodoList.ts](https://github.com/curest0x1021/aspnet-redux/blob/master/src/frontend/models/TodoList.ts#L33-L38)
 
 ```typescript
 export class TodoList {
@@ -286,7 +286,7 @@ The component will render only when parameters affecting it's computation change
 
 # Examples
 
-Some example of Models are available in [src/frontend/models](https://github.com/terotests/ts2redux/tree/master/src/frontend/models) -directory.
+Some example of Models are available in [src/frontend/models](https://github.com/curest0x1021/aspnet-redux/tree/master/src/frontend/models) -directory.
 
 ## Error handling in async functions
 
